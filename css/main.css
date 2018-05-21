@@ -1,0 +1,29 @@
+#splashview {
+  background-color: #333333;
+  height: 100vh;
+}
+
+#logohome {
+  background-color: #333333;
+  display: none;
+}
+
+#Home {
+background-color: #333333;
+height: 100vh;
+}
+
+#logo {
+  margin-top: 52vh;
+}
+
+.col,
+[class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
