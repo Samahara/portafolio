@@ -1,6 +1,6 @@
 function splash(time) {
   setTimeout(function () {
-    $('#splashview').hide(400);
+    $('#splashview').hide(300);
     $('#logohome').show("slow");
   }, time);
 }

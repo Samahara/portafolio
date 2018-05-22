@@ -4,26 +4,42 @@
 }
 
 #logohome {
-  background-color: #333333;
   display: none;
 }
 
 #Home {
-background-color: #333333;
-height: 100vh;
+  background-image: url(../assets/images/portada2.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 #logo {
-  margin-top: 52vh;
+  margin-top: 79.5vh;
+}
+
+.userposition {
+  color: white;
+  letter-spacing: 3em;
+  font-family: Comfortaa-Light;
+  font-size: 1em;
 }
 
 .col,
 [class*="col-"] {
-  padding-right: 0;
   padding-left: 0;
+  padding-right: 0;
 }
 
 .no-gutters {
-  margin-right: 0;
   margin-left: 0;
+  margin-right: 0;
+}
+
+.portfolioname {
+  color: white;
+  font-family: Comfortaa-Regular;
+  font-size: 3.5em;
+  line-height: .8em;
+  margin-top: 40vh;
 }
