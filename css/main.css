@@ -8,7 +8,7 @@
 }
 
 #Home {
-  background-image: url(../assets/images/portada2.png);
+  background-image: url(../assets/images/portada60.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -18,17 +18,39 @@
   margin-top: 79.5vh;
 }
 
-.userposition {
-  color: white;
-  letter-spacing: 3em;
-  font-family: Comfortaa-Light;
-  font-size: 1em;
+#mainmenu {
+  background-image: url(../assets/images/portadamainmenu.png);
+  background-position: bottom;
+  background-size: center;
+  height: 100vh;
+  display: none;
+}
+
+.enterbutton {
+  background: none;
+  border: none;
+  color: #EB5757;
+  cursor: pointer;
+  margin-top: 10vh;
+}
+
+.enterbutton:focus {
+  outline: none;
 }
 
 .col,
 [class*="col-"] {
   padding-left: 0;
   padding-right: 0;
+}
+
+.copyright > p {
+  border: none;
+  color: #E2E2E2;
+  font-size: .8em;
+  margin-bottom: 0;
+  margin-left: 1vw;
+  margin-top: 28vh;
 }
 
 .no-gutters {
@@ -42,4 +64,11 @@
   font-size: 3.5em;
   line-height: .8em;
   margin-top: 40vh;
+}
+
+.userposition {
+  color: white;
+  letter-spacing: 3.2em;
+  font-family: Comfortaa-Light;
+  font-size: 1em;
 }

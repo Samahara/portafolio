@@ -3,4 +3,11 @@ function splash(time) {
     $('#splashview').hide(300);
     $('#logohome').show("slow");
   }, time);
+};
+
+$('#enterbutton').click(gomainmenu)
+
+function gomainmenu() {
+  $('#logohome').hide("fast");
+  $('#mainmenu').show("fast");
 }
