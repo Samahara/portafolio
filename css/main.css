@@ -91,6 +91,18 @@
   padding: 1vh 1vw;
 }
 
+.menu > span.contactoon {
+  border-bottom: 1px solid #333333;
+}
+
+.menu > span.portafolioon {
+  border-bottom: 1px solid #333333;
+}
+
+.menu > span.sobre_mion {
+  border-bottom: 1px solid #333333;
+}
+
 .no-gutters {
   margin-left: 0;
   margin-right: 0;
