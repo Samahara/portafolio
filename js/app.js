@@ -9,7 +9,7 @@ $('#enterbutton').click(gomainmenu)
 
 function gomainmenu() {
   $('#logohome').hide("fast");
-  $('#mainmenu').show("fast");
+  $('#mainmenu').show("slow");
   $('#sobre_mi').show("fast");
   $('.sobre_mi').addClass("sobre_mion");
 }

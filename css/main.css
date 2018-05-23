@@ -17,6 +17,11 @@
   text-decoration: none;
 }
 
+#contacto > div > div > a.link:hover {
+  color: #EB5757;
+  text-decoration: underline;
+}
+
 #contacto > div > div > i {
   color: white;
   display: block;
@@ -39,6 +44,28 @@
 #infoportafolio {
   color: white;
   height: 75vh;
+}
+
+#infobbvaplan {
+  background-image: url(../assets/images/bbvaplan.png);
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  height: 80vh;
+}
+
+#infofoodmap {
+  background-image: url(../assets/images/foodmap.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  height: 80vh;
+}
+
+#infotwitter {
+  background-image: url(../assets/images/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 80%;
+  height: 80vh;
 }
 
 #infotwitter > p, #infofoodmap > p,
