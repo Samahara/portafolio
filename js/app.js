@@ -9,8 +9,8 @@ $('#enterbutton').click(gomainmenu)
 
 function gomainmenu() {
   $('#logohome').hide("fast");
-  $('#mainmenu').show("slow");
-  $('#sobre_mi').show("fast");
+  $('#mainmenu').show(300);
+  $('#sobre_mi').show(300);
   $('.sobre_mi').addClass("sobre_mion");
 }
 
