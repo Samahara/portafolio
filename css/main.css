@@ -6,16 +6,23 @@
   display: none;
 }
 
-#contacto > a {
+#contacto > div {
+  margin-left: 2vw;
+}
+
+#contacto > div > div > a {
   color: white;
   display: block;
   line-height: 6vh;
   text-decoration: none;
 }
 
-#contacto > a > i {
+#contacto > div > div > i {
+  color: white;
+  display: block;
   font-size: 1.5em;
   letter-spacing: 1em;
+  line-height: 6vh;
 }
 
 #Home {
@@ -23,6 +30,19 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+
+#infoportafolio {
+  color: white;
+  height: 75vh;
+}
+
+#infoportafolio > div > #infotwitter {
+  line-height: 1vh;
+}
+
+#infoportafolio > div > #infotwitter > img {
+  height: 50vh;
 }
 
 #logo {
@@ -39,6 +59,16 @@
   background-size: center;
   height: 100vh;
   display: none;
+}
+
+#portafolio > div {
+    margin-left: 2vw;
+}
+
+#portafolio > div > div > a {
+  color: white;
+  display: block;
+  line-height: 6vh;
 }
 
 #splashview {

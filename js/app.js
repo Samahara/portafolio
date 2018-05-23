@@ -10,6 +10,8 @@ $('#enterbutton').click(gomainmenu)
 function gomainmenu() {
   $('#logohome').hide("fast");
   $('#mainmenu').show("fast");
+  $('#sobre_mi').show("fast");
+  $('.sobre_mi').addClass("sobre_mion");
 }
 
 $('.contacto').click(gotocontact)
