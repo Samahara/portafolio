@@ -102,7 +102,7 @@
 }
 
 #portafolio > div {
-    margin-left: 2vw;
+  margin-left: 2vw;
 }
 
 #portafolio > div > div > a {
@@ -115,6 +115,27 @@
 #splashview {
   background-color: #333333;
   height: 100vh;
+}
+
+#sobre_mi {
+  color: white;
+  font-family: Comfortaa-Regular;
+  font-size: 1.5em;
+}
+
+#sobre_mi > div {
+  line-height: 1.5em;
+  margin-left: 2vw;
+  height: 60vh;
+}
+
+#sobre_mi > div > p {
+  margin-top: 20vh;
+}
+
+#sobre_mi > div > div > img {
+  height: 80vh;
+  margin-left: 10vw;
 }
 
 .bbvaplanon {
