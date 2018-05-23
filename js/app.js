@@ -38,8 +38,6 @@ function gotoportafolio(e) {
   $('.contacto').removeClass("contactoon");
   $('.sobre_mi').removeClass("sobre_mion");
   $('.portafolio').addClass("portafolioon");
-  $('#infobbvaplan').show("slow");
-  $('.bbvaplan').addClass("bbvaplanon");
 }
 
 $('.sobre_mi').click(gotosobremi)
