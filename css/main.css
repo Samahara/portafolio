@@ -25,6 +25,10 @@
   line-height: 6vh;
 }
 
+#content {
+  max-height: 80vh;
+}
+
 #Home {
   background-image: url(../assets/images/portada60.png);
   background-position: center;
@@ -37,12 +41,21 @@
   height: 75vh;
 }
 
-#infoportafolio > div > #infotwitter {
-  line-height: 1vh;
+#infotwitter > p, #infofoodmap > p,
+#infobbvaplan > p {
+  margin-bottom: 0;
 }
 
-#infoportafolio > div > #infotwitter > img {
+#infotwitter > div > img,
+#infofoodmap > div > img,
+#infobbvaplan > div > img {
   height: 50vh;
+  margin-left: 30vw;
+}
+
+#infotwitter, #infofoodmap,
+#infobbvaplan {
+  display: none;
 }
 
 #logo {
@@ -67,6 +80,7 @@
 
 #portafolio > div > div > a {
   color: white;
+  cursor: pointer;
   display: block;
   line-height: 6vh;
 }
@@ -74,6 +88,29 @@
 #splashview {
   background-color: #333333;
   height: 100vh;
+}
+
+.bbvaplanon {
+  color: #EB5757;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.buttongithub {
+  color: white;
+  line-height: 6vh;
+  margin-right: 2vw;
+}
+
+.buttonshow {
+  color: white;
+  line-height: 6vh;
+  margin-right: 2vw;
+}
+
+.buttongithub:hover,
+.buttonshow:hover {
+  color: #EB5757;
 }
 
 .col,
@@ -101,6 +138,23 @@
 
 .enterbutton:focus {
   outline: none;
+}
+
+.enterbutton:hover {
+  color: #EB5757;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.foodmapon {
+  color: #EB5757;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.font-light {
+  font-size: .8em;
+  font-weight: lighter;
 }
 
 .menu {
@@ -144,6 +198,12 @@
   font-size: 3.5em;
   line-height: .8em;
   margin-top: 40vh;
+}
+
+.twitteron {
+  color: #EB5757;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 
 .userposition {
