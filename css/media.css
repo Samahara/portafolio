@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  #Home {
+    background-image: url(../assets/images/portada60.png);
+    background-position: 82% 5%;
+    background-size: 300% 143%;
+    height: 100vh;
+  }
+  .copyright > p {
+    border: none;
+    color: #E2E2E2;
+    font-size: .5em;
+    margin-bottom: 0;
+    margin-left: 1vw;
+    margin-top: 59vh;
+  }
+  .enterbutton {
+    background: none;
+    border: none;
+    color: #EB5757;
+    cursor: pointer;
+    margin-top: vh;
+  }
+  .portfolioname {
+    color: white;
+    font-family: Comfortaa-Regular;
+    font-size: 1.47em;
+    line-height: .8em;
+    margin-top: 16vh;
+  }
+  .userposition {
+    color: white;
+    font-family: Comfortaa-Light;
+    font-size: .6em;
+    letter-spacing: 2.06em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #Home {
+    background-image: url(../assets/images/portada60.png);
+    background-position: 81% 5%;
+    background-size: 300% 143%;
+    height: 100vh;
+  }
+  .copyright > p {
+    border: none;
+    color: #E2E2E2;
+    font-size: .5em;
+    margin-bottom: 0;
+    margin-left: 1vw;
+    margin-top: 59vh;
+  }
+  .enterbutton {
+    background: none;
+    border: none;
+    color: #EB5757;
+    cursor: pointer;
+    margin-top: 5vh;
+  }
+  .portfolioname {
+    color: white;
+    font-family: Comfortaa-Regular;
+    font-size: 1.47em;
+    line-height: .8em;
+    margin-top: 16vh;
+  }
+  .userposition {
+    color: white;
+    font-family: Comfortaa-Light;
+    font-size: .6em;
+    letter-spacing: 2.06em;
+  }
+}

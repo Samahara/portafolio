@@ -86,7 +86,6 @@
 }
 
 #logo {
-  margin-top: 79.5vh;
 }
 
 #logohome {
@@ -172,7 +171,7 @@
   color: #E2E2E2;
   font-size: .8em;
   margin-bottom: 0;
-  margin-left: 1vw;
+  margin-left: .5vw;
   margin-top: 28vh;
 }
 
